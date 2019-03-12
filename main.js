@@ -81,7 +81,18 @@ const pieBuilder = () => {
     printToDom('many-pies', domString);
 };
 
+const buttonClick = () => {
+    console.log('you clicked a button');
+};
+
+const buttonEvents = () => {
+
+
+    document.getElementById('Zoe').addEventListener('click', buttonClick)
+};
+
 const init = () => {
+buttonEvents();
 pieBuilder();
 
 };
