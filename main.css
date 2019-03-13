@@ -4,8 +4,10 @@ background-color: mediumaquamarine;
 
 #many-pies {
 display: flex;
+flex-flow: row wrap;
 -webkit-flex-flow: row wrap;
 justify-content: space-around;
+max-width: 1000px;
 }
 .card {
    
@@ -22,7 +24,8 @@ justify-content: space-around;
 .pie {
     max-width: 100%;
     border: 1px solid black;
-    padding: 2px;  
+    padding: 2px;
+    text-align: center;
 }
 
 .card img {
