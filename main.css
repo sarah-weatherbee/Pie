@@ -1,3 +1,35 @@
 body {
 background-color: mediumaquamarine;
 }
+
+#many-pies {
+display: flex;
+flex-flow: row wrap;
+-webkit-flex-flow: row wrap;
+justify-content: space-around;
+max-width: 1000px;
+}
+.card {
+   
+    width: 30%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    align-items: center;
+    
+    
+    
+}
+.pie {
+    max-width: 100%;
+    border: 1px solid black;
+    padding: 2px;
+    text-align: center;
+}
+
+.card img {
+    max-width: 100%;
+    max-height: 100px;
+    
+}
