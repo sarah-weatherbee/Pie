@@ -63,4 +63,4 @@ $ npm install -g http-server
 ```
 
 ## Running
-Browse to pie directory and runn http server
+Browse to pie directory and run http server
